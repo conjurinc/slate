@@ -10,7 +10,9 @@ toc_footers:
 
 includes:
   - authentication
+  - variables
   - groups
+  - hosts
 
 search: true
 ---

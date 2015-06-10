@@ -19,6 +19,11 @@ Properties of the token include:
 * It carries the signature of the public key for easy lookup in a public key database.
 * It has a fixed life span of several minutes, after which it is no longer valid.
 
+<aside class="notice">
+All calls to the Conjur API with the exception of <code>authenticate</code> and <code>login</code>
+require this token in the Authorization header.
+</aside>
+
 ## Authenticate
 
 Exchange an API key for an authentication token to be used for further API calls.
